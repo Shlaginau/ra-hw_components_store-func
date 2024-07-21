@@ -15,5 +15,8 @@ export default [
         version: "detect" // Automatically detect the react version
       }
     }
+  },
+  {
+    ignores: ["build/**", "node_modules/**", "dist/**", "coverage/**"]
   }
 ];
