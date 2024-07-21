@@ -16,7 +16,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint -c eslint.config.mjs . --fix"
+    "lint": "eslint -c eslint.config.mjs . --fix",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -41,6 +43,8 @@
     "@eslint/js": "^9.7.0",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.35.0",
+    "gh-pages": "^6.1.1",
     "globals": "^15.8.0"
-  }
+  },
+  "homepage": "https://shlaginau.github.io/ra-hw_components_store-func/"
 }
