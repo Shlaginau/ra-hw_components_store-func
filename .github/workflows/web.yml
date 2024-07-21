@@ -18,7 +18,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [20.x]  # Обновлено до Node.js 20.x
+        node-version: [18.x]
 
     steps:
       - uses: actions/checkout@v3
@@ -41,9 +41,8 @@ jobs:
         uses: actions/configure-pages@v2
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v4  # Обновлено до v4
+        uses: actions/upload-pages-artifact@v1
         with:
-          name: github-pages
           path: 'build'
 
       - name: Deploy to GitHub Pages
