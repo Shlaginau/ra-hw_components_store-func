@@ -1,3 +1,7 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/eqw7w0snjti7o5fc?svg=true)](https://ci.appveyor.com/project/Shlaginau/ra-hw-components-store-func)
+
+![GitHub Pages](https://shlaginau.github.io/ra-hw_components_store-func/)
+
 Страница интернет-магазина
 ===
 
