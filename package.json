@@ -2,6 +2,7 @@
   "name": "intro",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://shlaginau.github.io/ra-hw_components_store-func/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -45,6 +46,5 @@
     "eslint-plugin-react": "^7.35.0",
     "gh-pages": "^6.1.1",
     "globals": "^15.8.0"
-  },
-  "homepage": "https://shlaginau.github.io/ra-hw_components_store-func/"
+  }
 }
